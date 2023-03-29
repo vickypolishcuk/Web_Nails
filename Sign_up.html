@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nails</title>
+        <link rel="stylesheet" href="Sign_up.css">
+        <link rel="stylesheet" href="header_footer.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="head_menu_icon">
+                <div>
+                    <img class="menu_icon" src="Icons/menu.png" alt="Меню">
+                </div>
+                <div>
+                    <img class="Logotype" src="Icons/Logotype.png" alt="Логотип">
+                </div>
+            </div>
+            <div class="span_in_menu">
+                <span><a href="Main.html">Про нас</a></span>
+                <span><a href="Services.html">Послуги</a></span>
+                <span><a href="Contacts.html">Контакти</a></span>
+            </div>
+            <div class="Phone">
+                <img src="Icons/Phone.png" alt="Телефон">
+                <span>Телефон: +380500505050</span>
+            </div>
+            <div>
+                <a href="Sign_up.html">
+                    <img class="Action" src="Icons/Action.png" alt="Записатися">
+                </a>
+            </div>
+        </header>
+        <main>
+            <div>
+                <div>
+                    <h1>
+                        Запис в салон манікюру Nails
+                    </h1>
+                </div>
+                <div>
+                    <p>
+                        Для запису в салон заповніть всі поля нижче:
+                    </p>
+                </div>
+                <div>
+                    <form>
+                        <label for="name">Ім'я:</label>
+                        <input type="text" id="name" placeholder="Євгенія Євгенівна"><br></br>
+                        <label for="number">Телефон:</label>
+                        <input type="tel" id="number" placeholder="099-69-69-229" pattern="0[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{3}" required><br></br>
+                        <label for="services">Послуги:</label>
+                        <select id="services">
+                            <option value="volvo">Покриття гель лаком</option>
+                            <option value="saab">Укріплення</option>
+                            <option value="fiat">Нарощення</option>
+                            <option value="audi">Педикюр</option>
+                            <option value="audi">Корекція</option>
+                        </select><br></br>
+                        <label for="wish">Побажання:</label>
+                        <input type="text" id="wish" placeholder="Ніжно рожевий колір"><br></br>
+                        <input type="image" class="Action" src="Icons/Send.png" alt="Відправити">
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="flex">
+                <div>
+                    <img class="Logotype" src="Icons/Logotype.png" alt="Логотип">
+                </div>
+                <div class="info">
+                    <div class="contacts">
+                        <div>
+                            <div>
+                                <img src="Icons/Time.png" alt="Час" height="24px" width="24px">
+                            </div>
+                            <div>
+                                <img src="Icons/Phone.png" alt="Телефон" height="24px" width="24px">
+                            </div>
+                            <div>
+                                <img src="Icons/Location.png" alt="Адреса" height="24px" width="24px">
+                            </div>
+                        </div>
+                        <div class="footer_info">
+                            <p>Графік роботи: Пн - Пт 9:00 - 16:00</p>
+                            <p>Телефон: +380500505050</p>
+                            <p>Адреса: Черкаська обл. м. Жашків, вул. Народна, 27</p>
+                        </div>
+                    </div>
+                    <div class="network">
+                        <div>
+                            <p>
+                                Ви також можете знайти нас тут:
+                            </p>
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com">
+                                <img src="Icons/Instagram.png" alt="Інстаграм">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://web.telegram.org">
+                                <img src="Icons/Telegram.png" alt="Телеграм">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://uk-ua.facebook.com">
+                                <img src="Icons/Facebook.png" alt="Фейсбук">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p class="Inc">
+                    © Nails, Inc. 2023. Ми любимо своїх клієнтів!
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
