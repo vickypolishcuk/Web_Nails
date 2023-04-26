@@ -12,7 +12,33 @@
         <header>
             <div class="head_menu_icon">
                 <div>
-                    <img class="menu_icon" src="Icons/menu.png" alt="Меню">
+                    <button id="btn1" onclick="openMenu()">
+                        <img class="menu_icon" src="Icons/menu.png" alt="Меню">
+                    </button>
+                    <script>
+                        function openMenu() {
+                            document.getElementById('text_menu').style.display='block';
+                            document.getElementById('btn1').style.display='none';
+                            document.getElementById('btn2').style.display='block';
+                        }
+                    </script>
+                    <div class="text_menu" id="text_menu">
+                        <button id="btn2" onclick="closeMenu()">
+                            <img class="menu_icon" src="Icons/menu.png" alt="Меню">
+                        </button>
+                        <script>
+                            function closeMenu() {
+                                document.getElementById('text_menu').style.display='none';
+                                document.getElementById('btn2').style.display='none';
+                                document.getElementById('btn1').style.display='block';
+                            }
+                        </script>
+                        <div class="p_in_menu">
+                            <p><a href="Main.html">Про нас</a></p>
+                            <p><a href="Services.html"><strong>Послуги</strong></a></p>
+                            <p><a href="Contacts.html">Контакти</a></p>
+                        </div>
+                    </div>
                 </div>
                 <div>
                     <img class="Logotype" src="Icons/Logotype.png" alt="Логотип">
